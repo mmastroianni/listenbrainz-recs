@@ -1,0 +1,32 @@
+.map-shell{max-width:1250px;margin:auto;padding:28px 22px 60px}
+.map-header{display:flex;align-items:start;justify-content:space-between;gap:24px}
+.map-header h1{font-size:clamp(2rem,4vw,3rem)}
+.back-link{white-space:nowrap;color:var(--accent);font-weight:650;text-decoration:none;margin-top:12px}
+.map-controls{display:flex;gap:15px;align-items:center;flex-wrap:wrap;margin:24px 0 8px}
+.map-controls>label:first-child{font-weight:700}
+.map-search-wrap{position:relative;flex:1;min-width:230px;max-width:440px}
+.map-suggestions{position:absolute;z-index:100;top:100%;left:0;right:0;background:white;border:1px solid var(--line);border-radius:8px;box-shadow:0 8px 24px #0002;list-style:none;margin:4px 0;padding:5px;max-height:280px;overflow:auto}
+.map-suggestions button{width:100%;text-align:left;border:0;background:white;padding:9px;cursor:pointer;font:inherit}
+.map-suggestions button:hover{background:#e9f5f7}
+.map-check{font-size:.9rem;white-space:nowrap}
+#artist-map{height:min(72vh,720px);min-height:410px;background:white;border:1px solid var(--line);border-radius:12px}
+.map-selection{background:white;border:1px solid var(--line);border-radius:12px;padding:20px;margin-top:16px}
+.map-neighbors{display:flex;flex-wrap:wrap;gap:8px}
+.map-neighbors button{border:1px solid var(--line);border-radius:7px;background:#f6fafb;padding:7px 10px;color:var(--accent);cursor:pointer}
+.map-neighbors button:hover{background:#e5f3f6}
+@media(max-width:600px){.map-header{display:block}.map-shell{padding:20px 10px}.map-controls{align-items:start;flex-direction:column}.map-search-wrap{width:100%}}
+
+.map-guide{background:white;border:1px solid var(--line);border-radius:12px;padding:20px;margin-top:16px}
+.guide-columns{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.guide-columns h3{font-size:1rem;margin:12px 0}
+#guide-artists{padding-left:24px;margin:0}
+#guide-artists li{padding:4px 0}
+#guide-artists button{border:0;background:transparent;padding:0;text-align:left;color:var(--accent);font:inherit;cursor:pointer}
+#guide-artists button:hover{text-decoration:underline}
+.guide-count{color:var(--muted);font-size:.8rem;margin-left:8px}
+.genre-row{display:flex;align-items:center;gap:8px;margin:8px 0}
+.genre-name{min-width:120px;max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.86rem}
+.genre-bar{flex:1;background:#edf2f5;border-radius:4px;height:10px;overflow:hidden}
+.genre-fill{background:#508e9e;height:100%}
+.genre-count{min-width:24px;text-align:right;color:var(--muted);font-size:.82rem}
+@media(max-width:700px){.guide-columns{grid-template-columns:1fr;gap:8px}}

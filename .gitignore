@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Raw dumps, intermediate data, and built models (large; regenerate with the pipeline)
+listenbrainz-statistics-dump-*/
+listenbrainz-statistics-dump-*.tar.zst
+data/
+models/
+
+# Scratch output
+scratch/
+*.log

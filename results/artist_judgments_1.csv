@@ -1,0 +1,89 @@
+seed_mbid,seed_artist,candidate_mbid,candidate_artist,relevance
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,cb67438a-7f50-4f2b-a6f1-2bb2729fd538,Air,1
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,2f9ecbed-27be-40e6-abca-6de49d50299e,Aretha Franklin,1
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,8247a3f2-3a8e-4256-b322-6c57b03a4e36,Bill Evans,3
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,d0630a08-3b40-4cb4-9f48-7d525262c1f6,Bill Evans Trio,3
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,d59c4cda-11d9-48db-8bfe-b557ee602aed,Billie Holiday,2
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,87c5dedd-371d-4a53-9f7f-80522fb7f3cb,Björk,0
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,72c536dc-7137-4477-a521-567eeb840fa8,Bob Dylan,0
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,c296e10c-110a-4103-9e77-47bfebb7fb2e,Bob Marley & The Wailers,0
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,ff95eb47-41c4-4f7f-a104-cdc30f02e872,Brian Eno,0
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,f3b8e107-abe8-4743-b6a3-4a4ee995e71f,Charles Mingus,3
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,1ba1d493-7114-45e2-b163-a36d49a0c065,Chet Baker,2
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,de0222a6-e1c4-403d-8b01-3f66d505061b,Dave Brubeck,3
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,3af06bc4-68ad-4cae-bb7a-7eeeb45e411f,Duke Ellington,3
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,54799c0e-eb45-4eea-996d-c4d71a63c499,Ella Fitzgerald,2
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,197450cd-0124-4164-b723-3c22dd16494d,Frank Sinatra,1
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,e20747e7-55a4-452e-8766-7b985585082d,Frank Zappa,1
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,27613b78-1b9d-4ec3-9db5-fa0743465fdd,Herbie Hancock,3
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,20ff3303-4fe2-4a47-a1b6-291e26aa3438,James Brown,1
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,06fb1c8b-566e-4cb2-985b-b467c90781d4,Jimi Hendrix,1
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,b625448e-bf4a-41c3-a421-72ad46cdb831,John Coltrane,3
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,b38225b8-8e5f-42aa-bcdc-7bae5b5bdab3,King Crimson,0
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,9d1ebcfe-4c15-4d18-95d3-d919898638a1,Lou Reed,0
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,eea8a864-fcda-4602-9569-38ab446decd6,Louis Armstrong,2
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,afdb7919-059d-43c1-b668-ba1d265e7e42,Marvin Gaye,1
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,fe7245e7-d734-4ca1-8e26-691883f58201,Miles Davis Quintet,3
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,2944824d-4c26-476f-a981-be849081942f,Nina Simone,2
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,985c709c-7771-4de3-9024-7bda29ebe3f9,Norah Jones,2
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,82b1f5fd-cd31-41a9-b5d4-7e33f0eb9751,Otis Redding,1
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,ba550d0e-adac-4864-b88b-407cab5e76af,Paul McCartney,0
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,8f6bd1e4-fbe1-4f50-aa9b-94c450ec0f11,Portishead,0
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,070d193a-845c-479f-980e-bef15710653e,Prince,0
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,67930b3e-e00b-469f-8c74-fd69f20522ec,Sade,0
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,5d02f264-e225-41ff-83f7-d9b1f0b1874a,Simon & Garfunkel,0
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,8f2422ab-0ec6-4c92-80c4-afe9622fab32,Stan Getz,2
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,e01c3376-15fa-40d7-b747-5f219bdefdd7,Steely Dan,1
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,1ee18fb3-18a6-4c7f-8ba0-bc41cdd0462e,Stevie Wonder,1
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,a94a7155-c79d-4409-9fcf-220cb0e4dc3a,Talking Heads,0
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,ebfc1398-8d96-47e3-82c3-f782abcdb13d,The Beach Boys,0
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,7bf711e9-4e69-4e08-b6e8-c0cb5805f1e7,The Dave Brubeck Quartet,2
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,9efff43b-3b29-4082-824e-bc82f646f93d,The Doors,0
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,33b3c323-77c2-417c-a5b4-af7e6a111cc9,The Jimi Hendrix Experience,0
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,94b0fb9d-a066-4823-b2ec-af1d324bcfcf,The Velvet Underground,0
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,8e8c7417-c905-46b1-b42a-5260b4274ed4,Thelonious Monk,3
+561d854a-6a28-4aa7-8c99-323e6ce46c2a,Miles Davis,c1d4f2ba-cf39-460c-9528-6b827d3417a1,Yes,0
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,a5bc5b4e-c839-4d94-84bd-839c0dad27b8,Alexander von Schlippenbach,2
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,91652f18-ce2d-40e1-b6ab-07179a82fb12,Arthur Blythe,3
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,1303f406-149a-4184-a8d2-76dc7c038554,Arthur Doyle,2
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,4670f76a-b712-439e-813b-613f1e5c0a9c,Barre Phillips,3
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,3f076b39-8267-4bf0-ac3e-e405d9feda21,Barry Guy,2
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,fa249282-f532-4fd0-94cf-7fcdca9fdeb6,Ben Goldberg,2
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,b176b128-3a6f-442c-9e04-b3bdc83e32bf,Billy Bang,2
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,bf874a68-1fb9-4c73-bf6e-bb1cb239948e,Byard Lancaster,2
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,f9621d71-ae23-41c4-8142-7877f2368586,Chad Taylor,2
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,4d0594f6-6809-4b45-8df7-47c53b8542a5,Dave Burrell,2
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,89380b6c-0961-44ad-a7fe-f9115d840aac,David Murray,3
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,db02ef48-952a-48e6-953f-d63b8fbe18a6,David S. Ware,3
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,76255a92-1b9b-4b89-bab2-9c03e781a3ed,Edward Vesala,2
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,e6991f19-d73c-4f28-85dd-c3f7383980da,Eric Revis,2
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,8dba3cd5-5ed9-4472-8b38-c77ffc52b965,Evan Parker,3
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,c12f22fd-7528-40c5-a429-c61820eaaeef,Frank Lowe,2
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,67d6ef18-a5f3-48b0-b8ad-6562da3b5f10,Henry Threadgill & Make a Move,3
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,6f22555b-a65a-4a9e-80a6-df1463513c6b,Henry Threadgill Sextett,3
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,3f437693-4f12-4500-9859-55b1deebbf8b,Ingrid Laubrock,2
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,f60b0a37-ab51-4014-9d4d-443d358354aa,Irène Schweizer,2
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,3cf1fbe0-2ff7-486c-a5aa-2b6ef5e78876,Ivo Perelman,3
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,b58a802c-7f70-44eb-84ae-a3924257e748,Jeanne Lee,2
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,a9527992-99db-46c3-a2aa-abab9c36e90e,Joe Morris,3
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,31fe325f-2553-4863-8a4a-5ddc0013e5a9,Julius Hemphill,3
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,113950c4-c3a1-4b46-b2e7-c0c933ad8bd7,Ken McIntyre,3
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,e5a4107f-5bb3-4f24-b9b7-927bb23840b5,Ken Vandermark,2
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,bb7e4384-a856-4090-809c-4b28ef2e27bb,Kent Kessler,2
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,d446a688-e55b-4c4c-8d53-a21fa77588e2,Leroy Jenkins,3
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,a16849a0-9329-4115-ba87-32ae7dcefca9,Marion Brown,3
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,2b8fbb4c-f146-4895-afa3-652825652547,Mary Halvorson Septet,3
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,8c4aeb3b-d52b-4233-86c9-67a85fd4b7db,Matt Mitchell,3
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,4f81bb0c-ea29-4671-9224-e55597811340,Misha Mengelberg,3
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,ecf3392e-bd72-46a8-ac59-2bf7b774c7a7,Muhal Richard Abrams,3
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,d912da37-417c-4707-a339-39671a27d9f7,Myra Melford,3
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,52a923b0-c3bc-47b6-ab81-3e1e82cc1de7,New York Art Quartet,3
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,56f33083-6014-4f4e-9c43-b9652cde55be,Roscoe Mitchell,3
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,83d5d2c1-674b-4b8b-b47f-0e7e2e42e850,Sonny Simmons,3
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,0f1ae3cd-2ab3-435c-8a5b-245e8073d91a,Steve Coleman,3
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,3870c548-7743-4a14-b9c5-4327e964e729,Sunny Murray,3
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,979e7617-bb40-4384-ac7b-ec0692783bd6,Thumbscrew,2
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,2850a795-3f51-4b96-b6c9-00176a493559,Tim Berne’s Snakeoil,2
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,dfcd737c-e03f-4739-9889-158ac34df367,Tom Rainey,2
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,7352ba0f-3c1d-49ca-8109-1c4e55c74851,Tomas Fujiwara,2
+bf3f2266-33e7-42ae-a1f2-4066ded25dca,Henry Threadgill,0704d0c8-618a-492a-be22-d757d66e93af,William Parker Quartet,2

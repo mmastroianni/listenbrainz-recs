@@ -1,0 +1,53 @@
+* { box-sizing: border-box; }
+:root { color-scheme: light; --ink:#1d2939; --muted:#617184; --line:#e2e8ef; --accent:#176b80; --surface:#fff; --bg:#f5f7f9; }
+body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+.shell { max-width:800px; margin:0 auto; padding:48px 24px 60px; }
+h1 { margin:4px 0; font-size:clamp(2.2rem,5vw,3.5rem); letter-spacing:-.045em; line-height:1.12; }
+h2 { font-size:1.35rem; margin:0; }
+.eyebrow { font-size:.72rem; font-weight:800; letter-spacing:.13em; color:var(--accent); margin:0 0 6px; }
+.intro,.hint,.status,footer { color:var(--muted); }
+.intro { margin-top:12px; }
+.search-area,.results { background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:24px; margin-top:28px; }
+.search-area label { display:block; font-weight:700; margin-bottom:10px; }
+.search-wrap { position:relative; }
+input[type=search] { width:100%; border:1px solid #b5c2d0; border-radius:9px; padding:14px 16px; font:inherit; background:white; color:var(--ink); }
+input[type=search]:focus, select:focus, button:focus-visible { outline:3px solid #93d3e1; outline-offset:2px; }
+.suggestions { list-style:none; padding:5px; margin:5px 0 0; position:absolute; z-index:10; top:100%; left:0; right:0; background:white; border:1px solid var(--line); border-radius:9px; box-shadow:0 12px 28px #1d293924; max-height:300px; overflow-y:auto; }
+.suggestions li { margin:0; }
+.suggestions button { display:block; width:100%; padding:10px 12px; text-align:left; font:inherit; color:var(--ink); background:transparent; border:0; border-radius:6px; cursor:pointer; }
+.suggestions button:hover,.suggestions button.active { background:#e9f5f7; }
+.hint { font-size:.83rem; margin:10px 0 0; }
+.results-heading { display:flex; align-items:end; justify-content:space-between; gap:16px; }
+.limit-control { display:flex; align-items:center; gap:8px; white-space:nowrap; font-size:.85rem; color:var(--muted); }
+select { border:1px solid var(--line); border-radius:6px; padding:5px 7px; background:white; }
+.status { font-size:.86rem; margin:15px 0 10px; min-height:1.2em; }
+.recommendations { list-style:none; padding:0; margin:0; }
+.recommendations li { display:flex; align-items:center; gap:14px; border-top:1px solid var(--line); padding:11px 0; }
+.rank { color:var(--muted); font-variant-numeric:tabular-nums; width:24px; text-align:right; flex-shrink:0; }
+.artist-link { flex:1; min-width:0; text-align:left; background:none; border:0; padding:4px 0; font:inherit; color:var(--accent); font-weight:600; cursor:pointer; }
+.artist-link:hover { text-decoration:underline; }
+.score { font-variant-numeric:tabular-nums; font-size:.9rem; color:var(--muted); }
+footer { text-align:center; margin-top:28px; font-size:.8rem; }
+@media (max-width:500px) { .shell { padding:24px 12px; } .search-area,.results { padding:16px; } .results-heading { align-items:start; } }
+
+.artist-info { flex:1; min-width:0; }
+.artist-info .artist-link { width:auto; }
+.genres { display:flex; flex-wrap:wrap; gap:5px; margin-top:5px; }
+.genre-tag { font-size:.73rem; line-height:1.3; padding:3px 7px; background:#eef3f5; border-radius:5px; color:#536475; }
+\n.back-link{color:var(--accent);font-weight:650;text-decoration:none}.back-link:hover{text-decoration:underline}\n
+/* Compact discovery actions: no changes to the recommendation model. */
+.artist-actions { display:flex; align-items:center; flex-wrap:wrap; gap:8px; margin-top:4px; }
+.discovery-link { font-size:.76rem; color:var(--accent); text-decoration:none; white-space:nowrap; }
+.discovery-link:hover { text-decoration:underline; }
+.bookmark-button { background:transparent; border:0; color:var(--accent); font-size:1.35rem; line-height:1; padding:2px 5px; cursor:pointer; }
+.bookmark-button:hover { color:#b27d1c; }
+.recommendation-right { display:flex; flex-direction:column; align-items:flex-end; flex-shrink:0; gap:1px; }
+.recommendation-right .artist-actions { justify-content:flex-end; }
+#seed-actions .artist-actions { margin-top:8px; }
+.saved-section { background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:18px 24px; margin-top:24px; }
+.saved-section summary { font-weight:650; cursor:pointer; }
+.saved-list { list-style:none; padding:0; margin:12px 0 0; }
+.saved-list li { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px; padding:9px 0; border-top:1px solid var(--line); }
+.saved-name { background:transparent; border:0; color:var(--accent); font:inherit; font-weight:600; cursor:pointer; text-align:left; }
+.saved-name:hover { text-decoration:underline; }
+@media(max-width:520px){ .recommendation-right .artist-actions{gap:5px}.discovery-link{font-size:.69rem} }

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Artist Explorer</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <p class="eyebrow">LISTENBRAINZ · ALS + FAISS</p>
+      <h1>Artist Explorer</h1>
+      <p class="intro">Find an artist, then follow the listening connections.</p>
+    <p><a href="/map" class="back-link">Explore the artist map →</a></p></header>
+    <section class="search-area" aria-label="Artist search">
+      <label for="artist-search">Artist</label>
+      <div class="search-wrap">
+        <input id="artist-search" type="search" autocomplete="off" spellcheck="false"
+               placeholder="Search artists (e.g. abou khalil)" role="combobox"
+               aria-autocomplete="list" aria-controls="suggestions" aria-expanded="false">
+        <ul id="suggestions" class="suggestions" role="listbox" hidden></ul>
+      </div>
+      <p class="hint">Try searching without accents or punctuation. Use ↑ ↓ and Enter to select.</p>
+    </section>
+    <section class="results" aria-live="polite">
+      <div class="results-heading">
+        <div>
+          <p class="eyebrow">SIMILAR ARTISTS</p>
+          <h2 id="selected-artist">Select an artist to explore</h2>
+          <div id="seed-genres" class="genres"></div>
+          <div id="seed-actions"></div>
+        </div>
+        <label class="limit-control" for="limit">Show
+          <select id="limit">
+            <option value="10">10</option>
+            <option value="20" selected>20</option>
+            <option value="50">50</option>
+          </select>
+        </label>
+      </div>
+      <p id="status" class="status">Recommendations use exact cosine similarity over the ALS factors.</p>
+      <ol id="recommendations" class="recommendations"></ol>
+    </section>
+    <section class="saved-section" aria-label="Saved artists">
+      <details>
+        <summary>Saved artists (<span id="saved-count">0</span>)</summary>
+        <p id="saved-empty" class="hint">Use ☆ beside an artist to save them here. Saved in this browser.</p>
+        <ul id="saved-artists" class="saved-list"></ul>
+      </details>
+    </section>
+    <footer>Raw ALS recommendations · Genre reranking coming later</footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Artist Map · Artist Explorer</title><link rel="stylesheet" href="/static/style.css">
+<link rel="stylesheet" href="/static/map.css">
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<script src="/static/map.js" defer></script></head>
+<body><main class="map-shell">
+<header class="map-header"><div><p class="eyebrow">LISTENBRAINZ · MUSICAL MAP</p><h1>Explore the artist map</h1>
+<p class="intro">Nearby dots represent artists with similar listening audiences. Distances are approximate.</p></div>
+<a href="/" class="back-link">← Recommendations</a></header>
+<section class="map-controls">
+<label for="map-search">Find an artist</label>
+<div class="map-search-wrap"><input type="search" id="map-search" autocomplete="off" placeholder="Try Christopher Hogwood">
+<ul id="map-suggestions" class="map-suggestions" hidden></ul></div>
+<label class="map-check"><input id="show-labels" type="checkbox"> Show selected artist labels</label>
+</section>
+<p id="map-status" class="status">Loading map…</p>
+<div id="artist-map" role="img" aria-label="Interactive map of artists positioned by similarity"></div>
+<section class="map-guide" aria-live="polite">
+<h2>Neighborhood guide</h2>
+<p id="guide-status">Click any dot on the map to explore its neighborhood.</p>
+<div class="guide-columns">
+<div><h3>Most-listened-to artists nearby</h3><ol id="guide-artists"></ol></div>
+<div><h3>Dominant MusicBrainz genres</h3><div id="guide-genres"></div></div>
+</div></section>
+<section class="map-selection"><h2 id="map-selected">Choose an artist</h2>
+<p id="map-detail">Search above or click a point. Click a neighbor to explore further.</p>
+<div id="map-neighbors" class="map-neighbors"></div></section>
+<footer>UMAP projection of ALS factors · Recommendation scores still use original 64-dimensional vectors</footer>
+</main></body></html>
